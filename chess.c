@@ -4,14 +4,14 @@
 int main()
 {
     char boardchess[SIZE][SIZE] = {
-            "rheqkehr",
-            "pppppppp",
-            "        ",
-            "        ",
-            "        ",
-            "        ",
-            "PPPPPPPP",
             "RHEQKEHR",
+            "PPPPPPPP",
+            "        ",
+            "        ",
+            "        ",
+            "        ",
+            "pppppppp",
+            "rheqkehr",
     };
     for (int i = 0; i < SIZE; i++) {
         for (int j = 0; j < SIZE; j++) {
